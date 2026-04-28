@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>광주 현대가구 | 싱크대·붙박이장 맞춤제작 전문</title>
+    
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+    
+    <style>
+        /* 기본 폰트 및 텍스트 디자인 설정 */
+        body { 
+            font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, Roboto, sans-serif; 
+            margin: 0; 
+            line-height: 1.6; 
+            color: #2b2b2b; 
+            letter-spacing: -0.02em; 
+            word-break: keep-all; 
+        }
+        
+        h1, h2, h3 { color: #1a1a1a; letter-spacing: -0.03em; font-weight: 700; }
+
+        header { background: #fff; border-bottom: 1px solid #e5e5e5; padding: 1.2rem 5%; position: sticky; top: 0; z-index: 100; display: flex; justify-content: space-between; align-items: center; }
+        .logo { font-size: 1.6rem; font-weight: 800; color: #1a1a1a; letter-spacing: -0.05em; }
+        
+        .hero { background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('banner.jpg') no-repeat center/cover; height: 60vh; color: #fff; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; padding: 0 20px; }
+        .hero h1 { font-size: 2.8rem; margin-bottom: 15px; text-shadow: 0 2px 4px rgba(0,0,0,0.3); }
+        .hero p { font-size: 1.2rem; margin-bottom: 30px; font-weight: 300; opacity: 0.9; }
+
+        .section { padding: 80px 10%; text-align: center; }
+        .section h2 { font-size: 2.2rem; margin-bottom: 40px; }
+        .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 25px; }
+        .feature-card { padding: 40px 30px; border: 1px solid #eaeaea; border-radius: 12px; transition: all 0.3s ease; background: #fff; }
+        .feature-card h3 { font-size: 1.4rem; margin-bottom: 15px; color: #0056b3; }
+
+        .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin-top: 30px; }
+        .gallery img { width: 100%; height: 250px; object-fit: cover; border-radius: 8px; transition: transform 0.3s ease; }
+
+        .contact { background: #f4f6f8; border-radius: 20px; padding: 60px 20px; margin: 40px 5%; }
+        .contact-number { font-size: 2rem; font-weight: 800; color: #1a1a1a; margin: 20px 0; letter-spacing: 0; }
+        
+        /* 버튼 스타일 */
+        .btn-call { display: inline-block; background: #1a1a1a; color: #fff; padding: 16px 40px; border-radius: 4px; text-decoration: none; font-weight: 600; font-size: 1.1rem; transition: background 0.3s; }
+        .btn-blog {
+            display: inline-block; background: #03cf5d; color: #fff; padding: 16px 40px; border-radius: 4px; text-decoration: none; font-weight: 600; font-size: 1.1rem; transition: all 0.3s ease; box-shadow: 0 4px 15px rgba(3, 207, 93, 0.2);
+        }
+        .btn-blog:hover { transform: translateY(-3px); box-shadow: 0 8px 20px rgba(3, 207, 93, 0.3); }
+
+        footer { background: #1a1a1a; color: #888; padding: 40px 20px; text-align: center; font-size: 0.95rem; font-weight: 300; }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="logo">광주 현대가구</div>
+</header>
+
+<section class="hero">
+    <h1>30년 경력의 전문가가 만드는 명품 가구</h1>
+    <p>광주 전 지역 싱크대 · 붙박이장 맞춤 제작 및 책임 시공</p>
+    <a href="tel:01093182249" class="btn-call">지금 바로 견적 문의하기</a>
+</section>
+
+<section class="section">
+    <h2>사업 소개</h2>
+    <div class="features">
+        <div class="feature-card">
+            <h3>싱크대 맞춤 제작</h3>
+            <p>공간에 최적화된 설계와 고품질 자재를 사용하여 주방의 품격을 높여드립니다.</p>
+        </div>
+        <div class="feature-card">
+            <h3>붙박이장 시공</h3>
+            <p>수납 효율을 극대화하고 인테리어 조화를 고려한 맞춤형 붙박이장을 제작합니다.</p>
+        </div>
+        <div class="feature-card">
+            <h3>30년 숙련 기술</h3>
+            <p>오랜 경험을 바탕으로 꼼꼼한 마감과 확실한 A/S를 약속드립니다.</p>
+        </div>
+    </div>
+</section>
+
+<section class="section" style="background: #fff;">
+    <h2>최신 시공 사례</h2>
+    <p>30년 경력 전문가의 작업 결과물을 확인하세요.</p>
+
+    <div style="margin: 30px 0 50px 0;">
+        <a href="https://blog.naver.com/moon9347" target="_blank" class="btn-blog">
+            <span style="display: flex; align-items: center; justify-content: center; gap: 10px;">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="#fff" xmlns="http://www.w3.org/2000/svg"><path d="M16.273 12.845L7.376 0H0v24h7.727V11.155L16.624 24H24V0h-7.727v12.845z"/></svg>
+                현대가구 공식 블로그에서 더 보기
+            </span>
+        </a>
+    </div>
+
+    <div class="gallery">
+        <img src="work1.jpg" alt="시공 사례 1">
+        <img src="work2.jpg" alt="시공 사례 2">
+        <img src="work3.jpg" alt="시공 사례 3">
+        <img src="work4.jpg" alt="시공 사례 4">
+    </div>
+</section>
+
+<section class="section contact">
+    <h2>견적 요청 및 문의</h2>
+    <p>상담은 무료입니다. 언제든 편하게 연락주세요!</p>
+    <p class="contact-number">📞 010-9318-2249</p>
+    <a href="tel:01093182249" class="btn-call">전화 연결하기</a>
+</section>
+
+<footer>
+    <p>&copy; 2024 광주 현대가구. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
